@@ -1,0 +1,157 @@
+/* CSD 122 - main.css - Junyeong Yoo */
+
+/*@charset "UTF-8";*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+body {
+	background-color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+	min-width: 700px;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+header {
+	padding-top: 20px;
+	border-bottom: solid 2px rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	position: relative;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+header img {
+	margin: 0 125px;
+	height: auto;
+	width: 30%;
+	display: inline-block;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+nav {
+	padding: 5px;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+nav ul {
+	text-align: center;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+nav ul li {
+	background-color: rgb(0, 0, 255);
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	padding: 10px 4px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+nav ul li a:link, header nav ul li a:visited {
+	background-color: rgb(24, 128, 24);
+	padding: 5px;
+	width: 125px;
+	display: inline-block;
+	text-align: center;
+	color: rgb(248, 255, 248);
+	text-decoration: none;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+nav ul li a:hover {
+	background-color: rgb(248, 255, 248);
+	color: rgb(24, 128, 24);
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+.currentPage {
+	border: solid 2px rgb(255, 24, 24);
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+main div {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+main div p {
+	width: 70%;
+	display: inline-block;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+main div img {
+	border: 1px solid white;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+#subjects /*ul li*/ {
+	text-align: center;
+	margin: auto;
+	width: 70%;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer {
+	clear: both;
+	text-align: left;
+	min-width: 1500px;
+	margin-top: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div {
+	margin: 10px auto;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div p {
+	width: 100%;
+	float: left;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div form {
+	width: 100%;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div form input.text {
+	border: 2px solid black;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div form label {
+	width: 110px;
+	display: inline-block;
+}
+
+/* Code written by Junyeong Yoo during HTML and CSS class */
+footer div form textarea {
+	border: 2px solid black;
+}

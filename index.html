@@ -1,7 +1,100 @@
+<!-- CSD 122 - index.html - Junyeong Yoo -->
+
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<head>
+		<!-- <meta charset = "UTF-8"> -->
+		<meta name = "viewpoint" content = "width = device-width, initial-scale = 1">
+		<title>Junyeong Yoo's Portfolio Website</title>
+		<link href = "styles/main.css" rel = "stylesheet" type = "text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src = "scripts/main.js"></script>
+	</head>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<body>
+		<div id = "wrapper">
+			<header>
+				<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+				<!-- Contents have been rewritten to fit the website's topic. -->
+				<img src = "images/BULogo.png" width = "500" alt = "Boston University logo">
+				<img src = "images/LWTechLogo.png" width = "500" alt = "Lake Washington Institute of Technology logo">
+				<h1>WELCOME TO MY PORTFOLIO WEBSITE.</h1>
+				<h1>MY NAME IS JUNYEONG YOO.</h1>
+			</header>
+			<nav>
+				<ul>
+					<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+					<!-- Contents have been rewritten to fit the website's topic. -->
+					<li><a class = "currentPage" href = "index.html">Main Page</a></li>
+					<li><a href = "pages/IMAXFilms.html">IMAX Films</a></li>
+					<li><a href = "pages/TemperatureConversion.html">Temperature Conversion</a></li>
+					<li><a href = "pages/DataValidation.html">Data Validation</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+			<!-- Contents have been rewritten to fit the website's topic. -->
+			<div>
+				<h2>About Myself</h2>
+				<p>I was a student at Boston University from 2014 to 2017 with my major being Earth & Environmental Science. Today, I'm studying Computing & 
+				Software Development at Lake Washington Institute of Technology in order to get a job at computer-related field. I'm currently at my second 
+				quarter.</p>
+			</div>
+			<div id = "subjects">
+				<p>As of today, I have learned:</p>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Python</li>
+			</div>
+			<div id = "subjects">
+				<p>I am now currently learning:</p>
+				<li>Java</li>
+				<li>JavaScript</li>
+				<li>JQuery</li>
+				<li>SQL</li>
+			</div>
+			<div id = "subjects">
+				<p>I have created these websites so far by using HTML, CSS, and JavaScript/JQuery:</p>
+				<li>IMAX Films</li>
+				<li>Temperature Conversion</li>
+				<li>Data Validation</li>
+				<p>You can view these websites by clicking buttons at the top.</p>
+			</div>
+			<div id = "subjects">
+				<p>These were used to create this website:</p>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>JQuery</li>
+				<p>You can view my codes in here:</p>
+			</div>
+		</main>
+		<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+		<!-- Contents have been rewritten to fit the website's topic. -->
+		<footer>
+			<div class = "message">
+				<p>If you have any questions, you can post messages down below: </p>
+				<br>
+				<form>
+					<label for = "username">* Username: </label>
+					<input class = "text" type = "text" name = "username" id = "username">
+					<br>
+					<label for = "email">* Email: </label>
+					<input class = "text" type = "email" name = "email" id = "email">
+					<br>
+					<label for = "messages">* Messages: </label>
+					<br>
+					<textarea name = "messages" id = "messages" cols = "125" rows = "10"></textarea>
+					<br>
+					<input class = "button" type = "button" onclick = "allInputs()" name = "submit" id = "submit" value = "Submit Messages">
+				</form>
+				<p>* Must be entered</p>
+				<p id = "alert"></p>
+			</div>
+		</footer>
+	</body>
 </html>

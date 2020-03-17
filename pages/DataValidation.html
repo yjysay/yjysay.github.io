@@ -1,0 +1,64 @@
+<!-- CSD 122 - DataValidation.html - Junyeong Yoo -->
+
+<!DOCTYPE html>
+<html>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<head>
+		<!-- <meta charset = "UTF-8"> -->
+		<meta name = "viewpoint" content = "width = device-width, initial-scale = 1">
+		<title>Validation of Name and Numbers</title>
+		<link href = "../styles/DataValidation.css" rel = "stylesheet" type = "text/css">
+		<!-- This is the corresponding JavaScript file for this HTML file. -->
+		<script src = "../scripts/DataValidation.js"></script>
+	</head>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<body>
+		<div id = "wrapper">
+			<header>
+				<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+				<!-- Contents have been rewritten to fit the website's topic. -->
+				<img src = "../images/Numbers.png" width = "50" alt = "Numbers symbol">
+				<h1>VALIDATION OF NAME AND NUMBERS</h1>
+			</header>
+			<nav>
+				<ul>
+					<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+					<!-- Contents have been rewritten to fit the website's topic. -->
+					<li><a href = "../index.html">Main Page</a></li>
+					<li><a href = "IMAXFilms.html">IMAX Films</a></li>
+					<li><a href = "TemperatureConversion.html">Temperature Conversion</a></li>
+					<li><a class = "currentPage" href = "DataValidation.html">Data Validation</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+			<!-- Contents have been rewritten to fit the website's topic. -->
+			<form name = "dataValidation" id = "dataValidation">
+				<label for = "fullName">Full Name</label>
+				<input type = "text" name = "fullName" id = "fullName">
+				<p>Full name must be longer than 2 characters.</p>
+				<label for = "integer1">Integer 1</label>
+				<input type = "text" name = "integer1" id = "integer1">
+				<p>Integer 1 must be an integer between 1 and 100.</p>
+				<label for = "integer2">Integer 2</label>
+				<input type = "text" name = "integer2" id = "integer2">
+				<p>Integer 2 must be an integer between 50 and 150.</p>
+				<label for = "number3">Number 3</label>
+				<input type = "text" name = "number3" id = "number3">
+				<p>Number 3 must be a negative number.</p>
+				<label for = "number4">Number 4</label>
+				<input type = "text" name = "number4" id = "number4">
+				<p>Number 4 can be any numbers.</p>
+				<label for = "number5">Number 5</label>
+				<input type = "text" name = "number5" id = "number5">
+				<p>Number 5 can be any numbers.</p>
+				<input type = "button" value = "message" onclick = "showStatement()">
+			</form>
+			<p id = "statement"></p>
+			<img id = "pictureResult">
+		</main>
+	</body>
+</html>

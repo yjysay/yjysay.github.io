@@ -1,0 +1,61 @@
+<!-- CSD 122 - TemperatureConversion.html - Junyeong Yoo -->
+<!-- Part of the code provided from ZyBooks -->
+
+<!DOCTYPE html>
+<html>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+    <head>
+        <!-- <meta charset = "UTF-8"> -->
+		<meta name = "viewpoint" content = "width = device-width, initial-scale = 1">
+		<title>From Celsius to Fahrenheit and Vice Versa</title>
+		<link href = "../styles/TemperatureConversion.css" rel = "stylesheet" type = "text/css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src = "../scripts/TemperatureConversion.js"></script>
+    </head>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+    <body onload = "bodyLoaded()">
+		<div id = "wrapper">
+			<header>
+				<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+				<!-- Contents have been rewritten to fit the website's topic. -->
+				<img src = "../images/Celsius.png" width = "50" alt = "Celsius symbol">
+				<img src = "../images/Fahrenheit.png" width = "50" alt = "Fahrenheit symbol">
+				<h1>FROM CELSIUS TO FAHRENHEIT AND VICE VERSA</h1>
+			</header>
+			<nav>
+				<ul>
+					<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+					<!-- Contents have been rewritten to fit the website's topic. -->
+					<li><a href = "../index.html">Main Page</a></li>
+					<li><a href = "IMAXFilms.html">IMAX Films</a></li>
+					<li><a class = "currentPage" href = "TemperatureConversion.html">Temperature Conversion</a></li>
+					<li><a href = "DataValidation.html">Data Validation</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<div>
+				<p>This is a website that will convert temperature from degrees Celsius to degrees Fahrenheit and vice versa. 3 different types of gif images will be 
+				displayed depending on the temperature.</p>
+				<!-- This part of the code was provided by ZyBooks Lab Assignment 7.14. -->
+				<!-- id = "FilmSource" has been added by Junyeong Yoo. -->
+				<br>
+				Celsius:
+				<br>
+				<input id = "CInput" type = "text" value = "" />
+				<br><br>
+				Fahrenheit:
+				<br>
+				<input id = "FInput" type = "text" value = "" />
+				<br><br>
+				<input id = "ConvertButton" type = "button" value = "Convert" />
+				<div id = "ErrDiv" style = "color: red"></div>
+				<br><br>
+				<img id = "WeatherImage" />
+				<p id = "FilmSource"></p>
+			</div>
+		</main>
+    </body>
+</html>
