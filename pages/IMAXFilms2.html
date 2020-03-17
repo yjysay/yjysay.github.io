@@ -1,0 +1,736 @@
+<!-- CSD 122 - IMAXFilms.html - Junyeong Yoo -->
+
+<!DOCTYPE html>
+<html>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<head>
+		<!-- <meta charset = "UTF-8"> -->
+		<meta name = "viewpoint" content = "width = device-width, initial-scale = 1">
+		<title>Feature Films and IMAX Cinematography Used in Them</title>
+		<link href = "../styles/IMAXFilms.css" rel = "stylesheet" type = "text/css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src = "../scripts/IMAXFilms.js"></script>
+	</head>
+	<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+	<!-- Contents have been rewritten to fit the website's topic. -->
+	<body onload = "openPage()">
+		<div id = "wrapper">
+			<header>
+				<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+				<!-- Contents have been rewritten to fit the website's topic. -->
+				<img src = "../images/IMAXLogo.png" width = "500" alt = "IMAX logo">
+				<h1>FEATURE FILMS AND IMAX CINEMATOGRAPHY USED IN THEM</h1>
+			</header>
+			<nav>
+				<ul>
+					<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+					<!-- Contents have been rewritten to fit the website's topic. -->
+					<li><a href = "../index.html">Main Page</a></li>
+					<li><a href = "IMAXFilms.html">Films Shot with IMAX Cameras</a></li>
+					<li><a class = "currentPage" href = "IMAXFilms2.html">Films Expanded to IMAX Aspect Ratios</a></li>
+					<li><a href = "TemperatureConversion.html">Temperature Conversion</a></li>
+					<li><a href = "DataValidation.html">DataValidation</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+			<!-- Contents have been rewritten to fit the website's topic. -->
+			<div>
+				<p>The first time I've seen a film in IMAX was back in 2009 when I watched <i>Star Trek</i>. While I wasn't a huge fan of the film at the time 
+				because it was the first time I saw anything related to <i>Star Trek</i> and my expectation was different, I still didn't feel like I wasted my 
+				money for nothing. After all, for what it's worth, the film looked pretty neat on IMAX screen. While I continued to watch flims in IMAX, it 
+				wasn't until 2013 when I watched <i>Pacific Rim</i> in IMAX and was absolutely blown away by it. While one could debate the actual quality of the 
+				film, I still found it to be one of the most visually outstanding films I've ever seen (sorry, <i>Avatar</i>). About few months later, I also 
+				watched <i>The Hunger Games: Catching Fire</i> in IMAX and that's when I truly got interested in IMAX cinematography and its aspect ratios, in 
+				which I found out that IMAX has aspect ratios of either 1.43:1 (generally for 15/70mm IMAX) or 1.90:1 (generally for digital IMAX) and I have 
+				been watching every single films that were shot in IMAX or have expanded IMAX aspect ratios for selected scenes since then.</p>
+				<p>On this page, I will be talking about films 
+				that have their aspect ratios expanded to IMAX aspect ratios for selected scenes or during the entire runtime. As of today, there are 58 of these films - <i>Apollo 13</i> (re-release), <i>TRON: Legacy</i>, <i>Flying Swords of Dragon Gate</i>, <i>Underworld: 
+				Awakening</i>, <i>Titanic</i> (re-release), <i>Prometheus</i>, <i>The Amazing Spider-Man</i>, <i>Skyfall</i>, <i>The 
+				Hobbit: An Unexpected Journey</i>, <i>Oblivion</i>, <i>Riddick</i>, <i>The 
+				Hobbit: The Desolation of Smaug</i>, <i>I, Frankenstein</i>, <i>Guardians of the Galaxy</i>, 
+				<i>The Hobbit: The Battle of the Five Armies</i>, <i>Seventh Son</i>, <i>Tomorrowland</i>, <i>Mojin: The Lost Legend</i>, <i>Ghostbusters: Answer 
+				the Call</i>, <i>Doctor Strange</i>, <i>Beauty and the Beast</i>, <i>Guardians of the Galaxy Vol. 2</i>, <i>Alien: Covenant</i>, 
+				<i>Pirates of the Caribbean: Dead Men Tell No Tales</i>, <i>Kingsman: The Golden Circle</i>, 
+				<i>Blade Runner 2049</i>, <i>Only the Brave</i>, <i>Thor: Ragnarok</i>, <i>Black Panther</i>, <i>Ant-Man and the 
+				Wasp</i>, <i>Mission: Impossible - Fallout</i>, <i>Iron Man</i> (re-release), <i>Aquaman</i>, <i>Alita: Battle Angel</i>, 
+				<i>Captain Marvel</i>, <i>Spider-Man: Far from Home</i>, <i>The Lion King</i>, <i>Maleficent: Mistress of Evil</i>, <i>The 
+				Aeronauts</i>, and <i>1917</i>. You can view information on these films by clicking 
+				IMAX posters of respective films.</p>
+			</div>
+			<!-- This part of the code was originally written by Junyeong Yoo for HTML and CSD class. -->
+			<!-- Contents have been rewritten to fit the website's topic. -->
+			<div class = "buttons">
+				<img src = "../images/Apollo13.jpg" width = "150" alt = "Apollo 13 poster" onclick = "clickPosterButton('Apollo13')">
+				<img src = "../images/TronLegacy.jpg" width = "150" alt = "TRON: Legacy poster" onclick = "clickPosterButton('TronLegacy')">
+				<img src = "../images/FlyingSwordsOfDragonGate.jpg" width = "150" alt = "Flying Swords of Dragon Gate poster" onclick = "clickPosterButton('FlyingSwordsOfDragonGate')">
+				<img src = "../images/UnderworldAwakening.jpg" width = "150" alt = "Underworld: Awakening poster" onclick = "clickPosterButton('UnderworldAwakening')">
+				<img src = "../images/Titanic.jpg" width = "150" alt = "Titanic poster" onclick = "clickPosterButton('Titanic')">
+				<img src = "../images/Prometheus.jpg" width = "150" alt = "Prometheus poster" onclick = "clickPosterButton('Prometheus')">
+				<img src = "../images/TheAmazingSpiderMan.jpg" width = "150" alt = "The Amazing Spider-Man poster" onclick = "clickPosterButton('TheAmazingSpiderMan')">
+				<img src = "../images/Skyfall.jpg" width = "150" alt = "Skyfall poster" onclick = "clickPosterButton('Skyfall')">
+				<img src = "../images/TheHobbitAnUnexpectedJourney.jpg" width = "150" alt = "The Hobbit: An Unexpected Journey poster" onclick = "clickPosterButton('TheHobbitAnUnexpectedJourney')">
+				<img src = "../images/Oblivion.jpg" width = "150" alt = "Oblivion poster" onclick = "clickPosterButton('Oblivion')">
+				<img src = "../images/Riddick.jpg" width = "150" alt = "Riddick poster" onclick = "clickPosterButton('Riddick')">
+				<img src = "../images/TheHobbitTheDesolationOfSmaug.jpg" width = "150" alt = "The Hobbit: The Desolation of Smaug poster" onclick = "clickPosterButton('TheHobbitTheDesolationOfSmaug')">
+				<img src = "../images/IFrankenstein.jpg" width = "150" alt = "I, Frankenstein poster" onclick = "clickPosterButton('IFrankenstein')">
+				<img src = "../images/GuardiansOfTheGalaxy.jpg" width = "150" alt = "Guardians of the Galaxy poster" onclick = "clickPosterButton('GuardiansOfTheGalaxy')">
+				<img src = "../images/TheHobbitTheBattleOfTheFiveArmies.jpg" width = "150" alt = "The Hobbit: The Battle of the Five Armies poster" onclick = "clickPosterButton('TheHobbitTheBattleOfTheFiveArmies')">
+				<img src = "../images/SeventhSon.jpg" width = "150" alt = "Seventh Son poster" onclick = "clickPosterButton('SeventhSon')">
+				<img src = "../images/Tomorrowland.jpg" width = "150" alt = "Tomorrowland poster" onclick = "clickPosterButton('Tomorrowland')">
+				<img src = "../images/MojinTheLostLegend.jpg" width = "150" alt = "Mojin: The Lost Legend poster" onclick = "clickPosterButton('MojinTheLostLegend')">
+				<img src = "../images/GhostbustersAnswerTheCall.jpg" width = "150" alt = "Ghostbusters: Answer the Call poster" onclick = "clickPosterButton('GhostbustersAnswerTheCall')">
+				<img src = "../images/DoctorStrange.jpg" width = "150" alt = "Doctor Strange poster" onclick = "clickPosterButton('DoctorStrange')">
+				<img src = "../images/BeautyAndTheBeast.jpg" width = "150" alt = "Beauty and the Beast poster" onclick = "clickPosterButton('BeautyAndTheBeast')">
+				<img src = "../images/GuardiansOfTheGalaxyVol2.jpg" width = "150" alt = "Guardians of the Galaxy Vol. 2 poster" onclick = "clickPosterButton('GuardiansOfTheGalaxyVol2')">
+				<img src = "../images/AlienCovenant.jpg" width = "150" alt = "Alien: Covenant poster" onclick = "clickPosterButton('AlienCovenant')">
+				<img src = "../images/PiratesOfTheCaribbeanDeadMenTellNoTales.jpg" width = "150" alt = "Pirates of the Caribbean: Dead Men Tell No Tales poster" onclick = "clickPosterButton('PiratesOfTheCaribbeanDeadMenTellNoTales')">
+				<img src = "../images/KingsmanTheGoldenCircle.jpg" width = "150" alt = "Kingsman: The Golden Circle poster" onclick = "clickPosterButton('KingsmanTheGoldenCircle')">
+				<img src = "../images/BladeRunner2049.jpg" width = "150" alt = "Blade Runner 2049 poster" onclick = "clickPosterButton('BladeRunner2049')">
+				<img src = "../images/OnlyTheBrave.jpg" width = "150" alt = "Only the Brave poster" onclick = "clickPosterButton('OnlyTheBrave')">
+				<img src = "../images/ThorRagnarok.jpg" width = "150" alt = "Thor: Ragnarok poster" onclick = "clickPosterButton('ThorRagnarok')">
+				<img src = "../images/MazeRunnerTheDeathCure.jpg" width = "150" alt = "Maze Runner: The Death Cure poster" onclick = "clickPosterButton('MazeRunnerTheDeathCure')">
+				<img src = "../images/BlackPanther.jpg" width = "150" alt = "Black Panther poster" onclick = "clickPosterButton('BlackPanther')">
+				<img src = "../images/AntManAndTheWasp.jpg" width = "150" alt = "Ant-Man and the Wasp poster" onclick = "clickPosterButton('AntManAndTheWasp')">
+				<img src = "../images/MissionImpossibleFallout.jpg" width = "150" alt = "Mission: Impossible - Fallout poster" onclick = "clickPosterButton('MissionImpossibleFallout')">
+				<img src = "../images/IronMan.jpg" width = "150" alt = "Iron Man poster" onclick = "clickPosterButton('IronMan')">
+				<img src = "../images/Aquaman.jpg" width = "150" alt = "Aquaman poster" onclick = "clickPosterButton('Aquaman')">
+				<img src = "../images/AlitaBattleAngel.jpg" width = "150" alt = "Alita: Battle Angel poster" onclick = "clickPosterButton('AlitaBattleAngel')">
+				<img src = "../images/CaptainMarvel.jpg" width = "150" alt = "Captain Marvel poster" onclick = "clickPosterButton('CaptainMarvel')">
+				<img src = "../images/SpiderManFarFromHome.jpg" width = "150" alt = "Spider-Man: Far from Home poster" onclick = "clickPosterButton('SpiderManFarFromHome')">
+				<img src = "../images/TheLionKing.jpg" width = "150" alt = "The Lion King poster" onclick = "clickPosterButton('TheLionKing')">
+				<img src = "../images/MaleficentMistressOfEvil.jpg" width = "150" alt = "Maleficent: Mistress of Evil poster" onclick = "clickPosterButton('MaleficentMistressOfEvil')">
+				<img src = "../images/TheAeronauts.jpg" width = "150" alt = "The Aeronauts poster" onclick = "clickPosterButton('TheAeronauts')">
+				<img src = "../images/1917.jpg" width = "150" alt = "1917 poster" onclick = "clickPosterButton('1917')">
+			</div>
+			<div class = "information" id = "Apollo13">
+				<h3>Apollo 13</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/KtEIMC58sZo"></iframe>
+				<li><b>Director</b>: Ron Howard</li>
+				<li><b>Cast</b>: Tom Hanks, Kevin Bacon, Bill Paxton, Gary Sinise, Ed Harris, Chris Ellis, Joe Spano, Kathleen Quinlan, Xander Berkeley, 
+				Tracy Reiner</li>
+				<li><b>Music</b>: James Horner</li>
+				<li><b>Cinematography</b>: Dean Cundey</li>
+				<li><b>Runtime</b>: 140 minutes/116 minutes (IMAX re-release)</li>
+				<li><b>Film negative formats</b>: 35mm</li>
+				<li><b>Aspect ratio</b>: 2.35:1/1.66:1 (IMAX re-release)</li>
+				<li><b>Budget</b>: $62,000,000</li>
+				<li><b>Studio</b>: Imagine Entertainment</li>
+				<li><b>MPAA</b>: PG - Language and emotional intensity</li>
+			</div>
+			<div class = "information" id = "TronLegacy">
+				<h3>TRON: Legacy</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/s5O6dNdSaxA"></iframe>
+				<li><b>Director</b>: Joseph Kosinski</li>
+				<li><b>Cast</b>: Garrett Hedlund, Jeff Bridges, Olivia Wilde, Bruce Boxleitner, Michael Sheen, James Frain, Beau Garrett</li>
+				<li><b>Music</b>: Daft Punk</li>
+				<li><b>Cinematography</b>: Claudio Miranda</li>
+				<li><b>Runtime</b>: 125 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D for The Grid scenes)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.78:1 (43 minutes)</li>
+				<li><b>Budget</b>: $170,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures</li>
+				<li><b>MPAA</b>: PG - Sequences of sci-fi action violence and brief mild language</li>
+			</div>
+			<div class = "information" id = "FlyingSwordsOfDragonGate">
+				<h3>Flying Swords of Dragon Gate</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/jnvzWcMUlCU"></iframe>
+				<li><b>Director</b>: Tsui Hark</li>
+				<li><b>Cast (live-action)</b>: Jet Li, Zhou Xun, Chen Kun, Li Yuchun, Gwei Lun-mei, Louis Fan, Mavis Fan, Wu Di, Gordon Liu, Zhang Xinyu</li>
+				<li><b>Music</b>: Wu Wai Lap</li>
+				<li><b>Cinematography</b>: Parkie Chan, Johnny Choi</li>
+				<li><b>Runtime</b>: 125 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.78:1 (IMAX release)</li>
+				<li><b>Budget</b>: $35,000,000</li>
+				<li><b>Studio</b>: Beijing Liangzi Group</li>
+				<li><b>MPAA</b>: R - Some violence</li>
+			</div>
+			<div class = "information" id = "UnderworldAwakening">
+				<h3>Underworld: Awakening</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/T_sk8co9DtQ"></iframe>
+				<li><b>Director</b>: Måns Mårlind, Björn Stein</li>
+				<li><b>Cast</b>: Kate Beckinsale, India Eisley, Theo James, Michael Ealy, Stephen Rea, Charles Dance, Sandrine Holt, Kris Holden-Reid, 
+				Robert Lawrenson, Ron Wear</li>
+				<li><b>Music</b>: Paul Haslinger</li>
+				<li><b>Cinematography</b>: Scott Kevan</li>
+				<li><b>Runtime</b>: 89 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $70,000,000</li>
+				<li><b>Studio</b>: Screen Gems, Lakeshore Entertainment</li>
+				<li><b>MPAA</b>: R - Strong violence and gore, and for some language</li>
+			</div>
+			<div class = "information" id = "Titanic">
+				<h3>Titanic</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/NDoSocfh1ow"></iframe>
+				<li><b>Director</b>: James Cameron</li>
+				<li><b>Cast</b>: Kate Winslet, Leonardo DiCaprio, Billy Zane, Frances Fisher, Gloria Stuart, Bill Paxton, Suzy Amis, Danny Nucci, David Warner, 
+				Jason Barry, Kathy Bates, Victor Garber, Bernard Hill, Mark Lindsay Chapman, Ewan Stewart, Ioan Gruffodd, Bernard Fox, Michael Ensign, 
+				Jonathan Evans-Jones, Jonathan Phillips</li>
+				<li><b>Music</b>: James Horner</li>
+				<li><b>Cinematography</b>: Russell Carpenter</li>
+				<li><b>Runtime</b>: 195 minutes</li>
+				<li><b>Film negative formats</b>: 35mm</li>
+				<li><b>Aspect ratio</b>: 2.34:1/1.78:1 (IMAX re-release)</li>
+				<li><b>Budget</b>: $200,000,000</li>
+				<li><b>Studio</b>: Paramount Pictures, 20th Century Fox</li>
+				<li><b>MPAA</b>: PG-13 - Disaster related peril and violence, nudity, sensuality and brief language</li>
+			</div>
+			<div class = "information" id = "Prometheus">
+				<h3>Prometheus</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/EBusrDZqK0Y"></iframe>
+				<li><b>Director</b>: Ridley Scott</li>
+				<li><b>Cast</b>: Noomi Rapace, Michael Fassbender, Charlize Theron, Idris Elba, Guy Pearce, Logan Marshall-Green, Sean Harris, Rafe Spall, 
+				Kate Dickie, Emun Elliott, Benedict Wong, Patrick Wilson, Ian Whyte, Daniel James</li>
+				<li><b>Music</b>: Marc Streitenfeld</li>
+				<li><b>Cinematography</b>: Dariusz Wolski</li>
+				<li><b>Runtime</b>: 124 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.66:1 (IMAX release)</li>
+				<li><b>Budget</b>: $130,000,000</li>
+				<li><b>Studio</b>: 20th Century Fox</li>
+				<li><b>MPAA</b>: R - Sci-fi violence including some intense images, and brief language</li>
+			</div>
+			<div class = "information" id = "TheAmazingSpiderMan">
+				<h3>The Amazing Spider-Man</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/HGxQyTGSx8s"></iframe>
+				<li><b>Director</b>: Marc Webb</li>
+				<li><b>Cast (live-action)</b>: Andrew Garfield, Emma Stone, Rhys Ifans, Dennis Leary, Sally Field, Martin Sheen, Irrfan Khan, Chris Zylka, 
+				Campbell Scott, Embeth Davidtz</li>
+				<li><b>Music</b>: James Horner</li>
+				<li><b>Cinematography</b>: John Schwartzman</li>
+				<li><b>Runtime</b>: 136 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.78:1 (20 minutes of final sequences)</li>
+				<li><b>Budget</b>: $230,000,000</li>
+				<li><b>Studio</b>: Columbia Pictures</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of action and violence</li>
+			</div>
+			<div class = "information" id = "Skyfall">
+				<h3>Skyfall</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/v0-ZgE4Jbj8"></iframe>
+				<li><b>Director</b>: Sam Mendes</li>
+				<li><b>Cast</b>: Daniel Craig, Judi Dench, Javier Bardem, Ralph Fiennes, Naomie Harris, Ben Whishaw, Bérénice Marlohe, Albert Finney, Rory Kinnear, 
+				Ola Rapace</li>
+				<li><b>Music</b>: Thomas Newman</li>
+				<li><b>Cinematography</b>: Roger Deakins</li>
+				<li><b>Runtime</b>: 143 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $200,000,000</li>
+				<li><b>Studio</b>: EON Productions</li>
+				<li><b>MPAA</b>: PG-13 - Intense violent sequences throughout, some sexuality, language and smoking</li>
+			</div>
+			<div class = "information" id = "TheHobbitAnUnexpectedJourney">
+				<h3>The Hobbit: An Unexpected Journey</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/wARM9hSKKqA"></iframe>
+				<li><b>Director</b>: Peter Jackson</li>
+				<li><b>Cast</b>: Martin Freeman, Ian Holm, Ian McKellen, Richard Armitage, Ken Scott, Aidan Turner, Dean O'Gorman, Graham McTavish, Mark Hadlow, 
+				Jed Brophy, Adam Brown, John Callen, Peter Hambleton, William Kircher, James Nesbitt, Stephen Hunter, Cate Blanchett, Hugo Weaving, Christopher Lee, 
+				Elijah Wood, Sylvester McCoy, Andy Serkis, Manu Bennett, Barry Humphries, John Rawls, Kiran Shah, Jeffrey Thomas, Bret McKenzie, Michael Mizrahi</li>
+				<li><b>Music</b>: Howard Shore</li>
+				<li><b>Cinematography</b>: Andrew Lesnie</li>
+				<li><b>Runtime</b>: 169 minutes/182 minutes (Extended Edition)</li>
+				<li><b>Film negative formats</b>: Digital (48 FPS 3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/2.00:1 (IMAX release)</li>
+				<li><b>Budget</b>: $270,000,000</li>
+				<li><b>Studio</b>: New Line Cinema, Metro-Goldwyn-Mayer</li>
+				<li><b>MPAA</b>: PG-13 - Extended sequences of intense fantasy action violence, and frightening images</li>
+				<li><b>MPAA (Extended Edition)</b>: PG-13 - Extended sequences of intense fantasy action violence, frightening images and fleeting nudity</li>
+			</div>
+			<div class = "information" id = "Oblivion">
+				<h3>Oblivion</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/uHNMLRHZbfQ"></iframe>
+				<li><b>Director</b>: Josephp Kosinski</li>
+				<li><b>Cast</b>: Tom Cruise, Olga Kurylenko, Morgan Freeman, Andrea Riseborough, Nikolaj Coster-Waldau, Melissa Leo, Zoë Bell</li>
+				<li><b>Music</b>: M83</li>
+				<li><b>Cinematography</b>: Claudio Miranda</li>
+				<li><b>Runtime</b>: 124 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $120,000,000</li>
+				<li><b>Studio</b>: Universal Pictures</li>
+				<li><b>MPAA</b>: PG-13 - Sci-fi action violence, brief strong language, and some sensuality/nudity</li>
+			</div>
+			<div class = "information" id = "Riddick">
+				<h3>Riddick</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/6WpPZPY9o04"></iframe>
+				<li><b>Director</b>: David Twohy</li>
+				<li><b>Cast</b>: Vin Diesel, Matthew Nable, Jordi Mollà, Katee Sackhoff, Dave Bautista, Bokeem Woodbine, Raoul Trujillo, Conrad Pla, 
+				Nolan Gerard Funk, Danny Blanco Hall, Noah Danby, Neil Napier, Karl Urban, Alex Branson, Andreas Apergis, Keri Hilson</li>
+				<li><b>Music</b>: Graeme Revell</li>
+				<li><b>Cinematography</b>: David Eggby</li>
+				<li><b>Runtime</b>: 119 minutes/127 minutes (Unrated Director's Cut)</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1</li>
+				<li><b>Budget</b>: $38,000,000</li>
+				<li><b>Studio</b>: One Race Films</li>
+				<li><b>MPAA</b>: R - Strong violence, language and some sexual content/nudity</li>
+				<li><b>MPAA (Unrated Director's Cut)</b>: Not Rated (most likely R)</li>
+			</div>
+			<div class = "information" id = "TheHobbitTheDesolationOfSmaug">
+				<h3>The Hobbit: The Desolation of Smaug</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/pMlDZR29rcg"></iframe>
+				<li><b>Director</b>: Peter Jackson</li>
+				<li><b>Cast</b>: Martin Freeman, Ian McKellen, Richard Armitage, Ken Scott, Aidan Turner, Dean O'Gorman, Graham McTavish, Mark Hadlow, Jed Brophy, 
+				Adam Brown, John Callen, Peter Hambleton, William Kircher, James Nesbitt, Stephen Hunter, Luke Evans, Orlando Bloom, Evangeline Lilly, Lee Pace, 
+				Sylvester McCoy, Benedict Cumberbatch, Cate Blanchett, Stephen Fry, Mikael Persbrandt, Ryan Gage, John Bell, Peggy Nesbitt, Mary Nesbitt, 
+				Manu Bennett, Barry Humphries, John Tui, Kiran Shah, Jeffrey Thomas, Michael Mizrahi, Ben Mitchell, Stephen Ure, Dallas Barnett, Mark Mitchinson, 
+				Robin Kerr, Antony Sher (Extended Edition)</li>
+				<li><b>Music</b>: Howard Shore</li>
+				<li><b>Cinematography</b>: Andrew Lesnie</li>
+				<li><b>Runtime</b>: 161 minutes/186 minutes (Extended Edition)</li>
+				<li><b>Film negative formats</b>: Digital (48 FPS 3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/2.00:1 (15/70mm IMAX release)</li>
+				<li><b>Budget</b>: $270,000,000</li>
+				<li><b>Studio</b>: New Line Cinema, Metro-Goldwyn-Mayer</li>
+				<li><b>MPAA</b>: PG-13 - Extended sequences of intense fantasy action violence, and frightening images</li>
+			</div>
+			<div class = "information" id = "IFrankenstein">
+				<h3>I, Frankenstein</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/_CodtOJewTY"></iframe>
+				<li><b>Director</b>: Stuart Beattie</li>
+				<li><b>Cast</b>: Aaron Eckhart, Bill Nighy, Yvonne Strahovski, Miranda Otto, Jai Courtney, Socratis Otto, Kevin Grevioux, Goran D. Kleut, 
+				Steve Mouzakis, Aden Young</li>
+				<li><b>Music</b>: Johnny Klimek, Reinhold Heil</li>
+				<li><b>Cinematography</b>: Dan McArthur, Ross Emery</li>
+				<li><b>Runtime</b>: 92 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>:$65,000,000</li>
+				<li><b>Studio</b>: Lakeshore Entertainment</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of intense fantasy action and violence throughout</li>
+			</div>
+			<div class = "information" id = "GuardiansOfTheGalaxy">
+				<h3>Guardians of the Galaxy</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/2LIQ2-PZBC8"></iframe>
+				<li><b>Director</b>: James Gunn</li>
+				<li><b>Cast</b>: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel (voice), Bradley Cooper (voice), Lee Pace, Michael Rooker, Karen Gillan, 
+				Djimon Hounsou, John C. Reilly, Glenn Close, Benicio del Toro, Sean Gunn, Peter Serafinowicz, Alexis Denisof</li>
+				<li><b>Music</b>: Tyler Bates</li>
+				<li><b>Cinematography</b>: Ben Davis</li>
+				<li><b>Runtime</b>: 121 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.78:1 (Approximately 36 minutes)</li>
+				<li><b>Budget</b>: $170,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Intense sequences of sci-fi violence and action, and for some language</li>
+			</div>
+			<div class = "information" id = "TheHobbitTheBattleOfTheFiveArmies">
+				<h3>The Hobbit: The Battle of the Five Armies</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/mXjOG4NYJ38"></iframe>
+				<li><b>Director</b>: Peter Jackson</li>
+				<li><b>Cast</b>: Martin Freeman, Ian Holm, Ian McKellen, Richard Armitage, Ken Scott, Aidan Turner, Dean O'Gorman, Graham McTavish, Mark Hadlow, 
+				Jed Brophy, Adam Brown, John Callen, Peter Hambleton, William Kircher, James Nesbitt, Stephen Hunter, Luke Evans, Orlando Bloom, Evangeline Lilly, 
+				Lee Pace, Cate Blanchett, Hugo Weaving, Christopher Lee, Sylvester McCoy, Benedict Cumberbatch, BIlly Connolly, Mikael Persbrandt, Manu Bennett, 
+				John Tui, Stephen Fry, Ryan Gage, John Bell, Peggy Nesbitt, Mary Nesbitt, Bret McKenzie, Simon London, Robin Kerr</li>
+				<li><b>Music</b>: Howard Shore</li>
+				<li><b>Cinematography</b>: Andrew Lesnie</li>
+				<li><b>Runtime</b>: 144 minutes/164 minutes (Extended Edition)</li>
+				<li><b>Film negative formats</b>: Digital (48 FPS 3D)</li>
+				<li><b>Aspect ratio</b>: 2.40:1/2.00:1 (IMAX release)</li>
+				<li><b>Budget</b>: $270,000,000</li>
+				<li><b>Studio</b>: New Line Cinema, Metro-Goldwyn-Mayer</li>
+				<li><b>MPAA</b>: PG-13 - Extended sequences of intense fantasy action violence, and frightening images</li>
+				<li><b>MPAA (Extended Edition)</b>: R - Some violence</li>
+			</div>
+			<div class = "information" id = "SeventhSon">
+				<h3>Seventh Son</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/5i90Qr0Qi6w"></iframe>
+				<li><b>Director</b>: Sergei Bodrov</li>
+				<li><b>Cast</b>: Ben Barnes, Jeff Bridges, Julianne Moore, Alicia Vikander, Antje Traue, Olivia Williams, John DeSantis, Kit Harington, 
+				Djimon Hounsou, Gerard Plunkett, Jason Scott Lee</li>
+				<li><b>Music</b>: Marco Beltrami</li>
+				<li><b>Cinematography</b>: Newton Thomas Sigel</li>
+				<li><b>Runtime</b>: 102 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (Opening sequence)</li>
+				<li><b>Budget</b>: $190,000,000</li>
+				<li><b>Studio</b>: Legendary Pictures, China Film Group</li>
+				<li><b>MPAA</b>: PG-13 - Intense fantasy violence and action throughout, frightening images and brief strong language</li>
+			</div>
+			<div class = "information" id = "Tomorrowland">
+				<h3>Tomorrowland</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/4kAHjjNL7ms"></iframe>
+				<li><b>Director</b>: Brad Bird</li>
+				<li><b>Cast</b>: Britt Robertson, George Clooney, Raffey Cassidy, Hugh Laurie, Tim McGraw, Kathryn Hahn, Keegan-Michael Key, Pierce Gagnon, 
+				Chris Bauer, Matthew MacCaull</li>
+				<li><b>Music</b>: Michael Giacchino</li>
+				<li><b>Cinematography</b>: Claudio Miranda</li>
+				<li><b>Runtime</b>: 130 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.20:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $190,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures</li>
+				<li><b>MPAA</b>: PG - Sequences of sci-fi action violence and peril, thematic elements, and language</li>
+			</div>
+			<div class = "information" id = "MojinTheLostLegend">
+				<h3>Mojin: The Lost Legend</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/ULv0MppLxYQ"></iframe>
+				<li><b>Director</b>: Wuershan</li>
+				<li><b>Cast</b>: Chen Kun, Huang Bo, Shu Qi, Angelababy, Xia Yu, Liu Xiaoqing</li>
+				<li><b>Music</b>: Kôji Endô</li>
+				<li><b>Cinematography</b>: Jake Pollock</li>
+				<li><b>Runtime</b>: 125 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.30:1/1.78:1 (Approximately 51 minutes)</li>
+				<li><b>Budget</b>: $37,000,000</li>
+				<li><b>Studio</b>: Wanda Media Co., Ltd.</li>
+				<li><b>MPAA</b>: Not Rated (most likely R)</li>
+			</div>
+			<div class = "information" id = "GhostbustersAnswerTheCall">
+				<h3>Ghostbusters: Answer the Call</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/oEb6hUNo5jc"></iframe>
+				<li><b>Director</b>: Paul Feig</li>
+				<li><b>Cast</b>: Melissa McCarthy, Kristen Wiig, Kate McKinnon, Leslie Jones, Chris Hemsworth, Neil Casey, Andy García, Cecily Strong, 
+				Michael K. Williams, Matt Walsh, Charles Dance, Ed Begley Jr.</li>
+				<li><b>Music</b>: Theodore Shapiro</li>
+				<li><b>Cinematography</b>: Robert Yeoman</li>
+				<li><b>Runtime</b>: 116 minutes/134 minutes (Extended Edition)</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.78:1 (Approximately 1 minute of "Portal" scene)</li>
+				<li><b>Budget</b>: $144,000,000</li>
+				<li><b>Studio</b>: Columbia Pictures, Village Roadshow Pictures</li>
+				<li><b>MPAA</b>: PG-13 - Supernatural action and some crude humor</li>
+				<li><b>MPAA (Extended Edition)</b>: Not Rated (likely R)</li>
+			</div>
+			<div class = "information" id = "DoctorStrange">
+				<h3>Doctor Strange</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/jZvUaJrH-TA"></iframe>
+				<li><b>Director</b>: Scott Derrickson</li>
+				<li><b>Cast</b>: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Mads Mikkelsen, Tilda Swinton, Michael Stuhlbarg, 
+				Benjamin Bratt, Scott Adkins, Topo Wresniwiro</li>
+				<li><b>Music</b>: Michael Giacchino</li>
+				<li><b>Cinematography</b>: Ben Davis</li>
+				<li><b>Runtime</b>: 115 minutes</li>
+				<li><b>Film negative formats</b>: Digital/35mm</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 60 minutes)</li>
+				<li><b>Budget</b>: $165,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Sci-fi violence and action throughout, and an intense crash sequence</li>
+			</div>
+			<div class = "information" id = "BeautyAndTheBeast">
+				<h3>Beauty and the Beast</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/sAhEzYLhsO0"></iframe>
+				<li><b>Director</b>: Bill Condon</li>
+				<li><b>Cast</b>: Emma Watson, Dan Stevens, Kevin Kline, Luke Evans, Josh Gad, Ewan McGregor, Ian McKellen, Emma Thompson, Nathan Mack, Stanley Tucci, 
+				Audra McDonald, Gugu Mbatha-Raw, Hattie Morahan, Rita Davies, Gerard Horan, Ray Fearon, Adrian Schiller, Haydn Gwynne, Clive Rowe, Thomas Padden</li>
+				<li><b>Music</b>: Alan Menken</li>
+				<li><b>Cinematography</b>: Tobias A. Schliessler</li>
+				<li><b>Runtime</b>: 129 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $160,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures</li>
+				<li><b>MPAA</b>: PG - Some action violence, peril and frightening images</li>
+			</div>
+			<div class = "information" id = "GuardiansOfTheGalaxyVol2">
+				<h3>Guardians of the Galaxy Vol. 2</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/E7UaqXCDdGE"></iframe>
+				<li><b>Director</b>: James Gunn</li>
+				<li><b>Cast</b>: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel (voice), Bradley Cooper (voice), Pom Klementieff, Michael Rooker, Karen Gillan, 
+				Kurt Russell, Elizabeth Debicki, Sean Gunn, Sylvester Stallone, Chris Sullivan, Laura Haddock, Michael Rosenbaum</li>
+				<li><b>Music</b>: Tyler Bates</li>
+				<li><b>Cinematography</b>: Henry Braham</li>
+				<li><b>Runtime</b>: 136 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 38 minutes)</li>
+				<li><b>Budget</b>: $200,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of sci-fi action and violence, language, and brief suggestive content</li>
+			</div>
+			<div class = "information" id = "AlienCovenant">
+				<h3>Alien: Covenant</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/8HtqEg4OMfM"></iframe>
+				<li><b>Director</b>: Ridley Scott</li>
+				<li><b>Cast</b>: Katherine Waterston, Michael Fassbender, Billy Crudup, Danny McBride, Demián Bichir, Carmen Ejogo, Jussie Smollett, 
+				Callie Hernandez, Amy Seimetz, Nathaniel Dean, Alexander England, Benjamin Rigby, Uli Latukefu, Tess Haubrich, Lorelei King (voice)</li>
+				<li><b>Music</b>: Jed Kurzel</li>
+				<li><b>Cinematography</b>: Dariusz Wolski</li>
+				<li><b>Runtime</b>: 122 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $97,000,000</li>
+				<li><b>Studio</b>: 20th Century Fox</li>
+				<li><b>MPAA</b>: R - Sci-fi violence, bloody images, language and some sexuality/nudity</li>
+			</div>
+			<div class = "information" id = "PiratesOfTheCaribbeanDeadMenTellNoTales">
+				<h3>Pirates of the Caribbean: Dead Men Tell No Tales</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/v-12Fcds0oY"></iframe>
+				<li><b>Director</b>: Joachim Rønning, Espen Sandberg</li>
+				<li><b>Cast</b>: Johnny Depp, Javier Bardem, Geoffrey Rush, Brenton Thwaites, Kaya Scodelario, Kevin McNally, David Wenham, Golshifteh Farahani, 
+				Stephen Graham, Martin Klebba</li>
+				<li><b>Music</b>: Geoff Zanelli</li>
+				<li><b>Cinematography</b>: Paul Cameron</li>
+				<li><b>Runtime</b>: 129 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $230,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures, Jerry Bruckheimer Films</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of adventure violence, and some suggestive content</li>
+			</div>
+			<div class = "information" id = "KingsmanTheGoldenCircle">
+				<h3>Kingsman: The Golden Circle</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/RjylIH3pZD8"></iframe>
+				<li><b>Director</b>: Matthew Vaughn</li>
+				<li><b>Cast</b>: Taron Egerton, Mark Strong, Colin Firth, Julianne Moore, Pedro Pascal, Edward Holcroft, Halle Berry, Hanna Alström, Jeff Bridges, 
+				Channing Tatum, Bruce Greenwood, Emily Watson, Sophie Cookson, Michael Gambon, Poppy Delevingne</li>
+				<li><b>Music</b>: Henry Jackman, Matthew Margeson</li>
+				<li><b>Cinematography</b>: George Richmond</li>
+				<li><b>Runtime</b>: 141 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 8 minutes)</li>
+				<li><b>Budget</b>:$104,000,000</li>
+				<li><b>Studio</b>: 20th Century Fox</li>
+				<li><b>MPAA</b>: R - Sequences of strong violence, drug content, language throughout and some sexual material</li>
+			</div>
+			<div class = "information" id = "BladeRunner2049">
+				<h3>Blade Runner 2049</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/XzYe4TTmnyI"></iframe>
+				<li><b>Director</b>: Denis Villeneuve</li>
+				<li><b>Cast</b>: Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Carla Juri, Lennie James, Dave Bautista, 
+				Jared Leto, Edward James Olmos, Barkhad Abdi, Hiam Abbass, David Dastmalchian, Wood Harris, Tómas Lemarquis</li>
+				<li><b>Music</b>: Benjamin Wallfisch, Hans Zimmer</li>
+				<li><b>Cinematography</b>: Roger Deakins</li>
+				<li><b>Runtime</b>: 163 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $150,000,000</li>
+				<li><b>Studio</b>: Alcon Entertainment, Columbia Pictures</li>
+				<li><b>MPAA</b>: R - Violence, some sexuality, nudity and language</li>
+			</div>
+			<div class = "information" id = "OnlyTheBrave">
+				<h3>Only the Brave</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/87aUUMNcFEc"></iframe>
+				<li><b>Director</b>: Joseph Kosinski</li>
+				<li><b>Cast</b>: Josh Brolin, Miles Teller, Jeff Bridges, James Badge Dale, Taylor Kitsch, Jennifer Connelly, Andie MacDowell, Geoff Stults, 
+				Alex Russell, Thad Luckinbill, Ben Hardy, Scott Haze, Jake Picking, Natalie Hall, Pell James</li>
+				<li><b>Music</b>: Joseph Trapanese</li>
+				<li><b>Cinematography</b>: Claudio Miranda</li>
+				<li><b>Runtime</b>: 133 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $38,000,000</li>
+				<li><b>Studio</b>: Black Label Media</li>
+				<li><b>MPAA</b>: PG-13 - Thematic content, some sexual references, language and drug material</li>
+			</div>
+			<div class = "information" id = "ThorRagnarok">
+				<h3>Thor: Ragnarok</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/Lrw9cLu17_k"></iframe>
+				<li><b>Director</b>: Taika Waititi</li>
+				<li><b>Cast</b>: Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Idris Elba, Mark Ruffalo, Tessa Thompson, Jeff Goldblum, Karl Urban, Taika Waititi, 
+				Anthony Hopkins</li>
+				<li><b>Music</b>: Mark Mothersbaugh</li>
+				<li><b>Cinematography</b>: 	Javier Aguirresarobe</li>
+				<li><b>Runtime</b>: 130 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 42 minutes)</li>
+				<li><b>Budget</b>: $180,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Intense sequences of sci-fi violence and action, and brief suggestive material</li>
+			</div>
+			<div class = "information" id = "MazeRunnerTheDeathCure">
+				<h3>Maze Runner: The Death Cure</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/wOHXeoQsHeQ"></iframe>
+				<li><b>Director</b>: Wes Ball</li>
+				<li><b>Cast</b>: Dylan O'Brien, Kaya Scodelario, Thomas Brodie-Sangster, Dexter Darden, Nathalie Emmanuel, Giancarlo Esposito, Aidan Gillen, 
+				Walton Goggins, Ki Hong Lee, Jacob Lofland, Katherine McNamara, Barry Pepper, Will Poulter, Rosa Salazar, Patricia Clarkson</li>
+				<li><b>Music</b>: John Paesano</li>
+				<li><b>Cinematography</b>: Gyula Pados</li>
+				<li><b>Runtime</b>: 143 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $62,000,000</li>
+				<li><b>Studio</b>: 20th Century Fox</li>
+				<li><b>MPAA</b>: PG-13 - Intense sequences of sci-fi violence and action, language, and some thematic elements</li>
+			</div>
+			<div class = "information" id = "BlackPanther">
+				<h3>Black Panther</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/WuXZxJLGrS0"></iframe>
+				<li><b>Director</b>: Ryan Coogler</li>
+				<li><b>Cast</b>: Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, 
+				Angela Bassett, Forest Whitaker, Andy Serkis, John Kani, Florence Kasumba, Sterling K. Brown, Trevor Noah (voice)</li>
+				<li><b>Music</b>: Ludwig Göransson</li>
+				<li><b>Cinematography</b>: Rachel Morrison</li>
+				<li><b>Runtime</b>: 134 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.43:1 (Approximately 60 minutes)</li>
+				<li><b>Budget</b>: $200,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Prolonged sequences of action violence, and a brief rude gesture</li>
+			</div>
+			<div class = "information" id = "AntManAndTheWasp">
+				<h3>Ant-Man and the Wasp</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/FCgW1XtUDC4"></iframe>
+				<li><b>Director</b>: Peyton Reed</li>
+				<li><b>Cast</b>: Paul Rudd, Evangeline Lilly, Michael Douglas, Hannah John-Kamen, Michael Peña, Tip "T.I." Harris, David Dastmalchian, 
+				Abby Ryder Fortson, Randall Park, Laurence Fishburne, Walton Goggins, Bobby Cannavale, Judy Greer, Michelle Pfeiffer, Divian Ladwa, Goran Kostić, 
+				Rob Archer, Sean Kleier, Michael Cerveris, Riann Steele</li>
+				<li><b>Music</b>: Christophe Beck</li>
+				<li><b>Cinematography</b>: Dante Spinotti</li>
+				<li><b>Runtime</b>: 118 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 27 minutes)</li>
+				<li><b>Budget</b>: $162,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Some sci-fi action violence</li>
+			</div>
+			<div class = "information" id = "MissionImpossibleFallout">
+				<h3>Mission: Impossible - Fallout</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/kmzX-XCQIZE"></iframe>
+				<li><b>Director</b>: Christopher McQuarrie</li>
+				<li><b>Cast</b>: Tom Cruise, Henry Cavill, Simon Pegg, Ving Rhames, Rebecca Ferguson, Sean Harris, Angela Bassett, Alec Baldwin, Vanessa Kirby, 
+				Frederick Schmidt</li>
+				<li><b>Music</b>: Lorne Balfe</li>
+				<li><b>Cinematography</b>: Rob Hardy</li>
+				<li><b>Runtime</b>: 147 minutes</li>
+				<li><b>Film negative formats</b>: 35mm/Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 18 minutes)</li>
+				<li><b>Budget</b>: $178,000,000</li>
+				<li><b>Studio</b>: Paramount Pictures, Skydance Media, Alibaba Pictures</li>
+				<li><b>MPAA</b>: PG-13 - Violence and intense sequences of action, and for brief strong language</li>
+			</div>
+			<div class = "information" id = "IronMan">
+				<h3>Iron Man</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/8ugaeA-nMTc"></iframe>
+				<li><b>Director</b>: Jon Favreau</li>
+				<li><b>Cast</b>: Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow, Shaun Toub, Faran Tahir, Leslie Bibb, Clark Gregg, Jon Favreau, 
+				Paul Bettany (voice)</li>
+				<li><b>Music</b>: Ramin Djawadi</li>
+				<li><b>Cinematography</b>: Matthew Libatique</li>
+				<li><b>Runtime</b>: 126 minutes</li>
+				<li><b>Film negative formats</b>: 35mm</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.90:1 (Approximately 27 minutes)</li>
+				<li><b>Budget</b>: $140,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Some intense sequences of sci-fi action and violence, and brief suggestive content</li>
+			</div>
+			<div class = "information" id = "Aquaman">
+				<h3>Aquaman</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/WhomgoZwr-w"></iframe>
+				<li><b>Director</b>: James Wan</li>
+				<li><b>Cast</b>: Jason Momoa, Amber Heard, Willem Dafoe, Patrick Wilson, Dolph Lundgren, Yahya Abdul-Mateen II, Ludi Lin, Temuera Morrison, 
+				Nicole Kidman, Graham McTavish, Michael Beach</li>
+				<li><b>Music</b>: Rupert Gregson-Williams</li>
+				<li><b>Cinematography</b>: Don Burgess</li>
+				<li><b>Runtime</b>: 143 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.40:1/1.78:1 (92 minutes)</li>
+				<li><b>Budget</b>: $200,000,000</li>
+				<li><b>Studio</b>: Warner Brothers Pictures</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of sci-fi violence and action, and for some language</li>
+			</div>
+			<div class = "information" id = "AlitaBattleAngel">
+				<h3>Alita: Battle Angel</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/IOeYXHwp3CU"></iframe>
+				<li><b>Director</b>: Robert Rodriguez</li>
+				<li><b>Cast</b>: Rosa Salazar, Christoph Waltz, Keean Johnson, Jennifer Connelly, Mahershala Ali, Ed Skrein, Jackie Earle Haley, Idara Victor, 
+				Eiza González, Jeff Fahey</li>
+				<li><b>Music</b>: Junkie XL</li>
+				<li><b>Cinematography</b>: Bill Pope</li>
+				<li><b>Runtime</b>: 122 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D)</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (40 minutes)</li>
+				<li><b>Budget</b>: $170,000,000</li>
+				<li><b>Studio</b>: 20th Century Fox</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of sci-fi violence and action, and for some language</li>
+			</div>
+			<div class = "information" id = "CaptainMarvel">
+				<h3>Captain Marvel</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/5UOgE0hJDys"></iframe>
+				<li><b>Director</b>: Anna Boden, Ryan Fleck</li>
+				<li><b>Cast</b>: Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Jude Law, Annette Bening, Lashana Lynch, Djimon Hounsou, Gemma Chan, 
+				Algenis Pérez Soto, Rune Temte, Clark Gregg, Lee Pace, Akira Akbar, Sharon Blynn, Robert Kazinsky</li>
+				<li><b>Music</b>: Pinar Toprak</li>
+				<li><b>Cinematography</b>: Ben Davis</li>
+				<li><b>Runtime</b>: 124 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 36 minutes)</li>
+				<li><b>Budget</b>: $152,000,000</li>
+				<li><b>Studio</b>: Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Sequences of sci-fi violence and action, and brief suggestive language</li>
+			</div>
+			<div class = "information" id = "SpiderManFarFromHome">
+				<h3>Spider-Man: Far from Home</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/9uNwiXaE8Vc"></iframe>
+				<li><b>Director</b>: Jon Watts</li>
+				<li><b>Cast</b>: Tom Holland, Jake Gyllenhaal, Samuel L. Jackson, Zendaya, Cobie Smulders, Jon Favreau, Jacob Batalon, Martin Starr, J. B. Smoove, 
+				Marisa Tomei, Tony Revolori, Angourie Rice, Remy Hii, Numan Acar, Dawn Michelle King (voice)</li>
+				<li><b>Music</b>: Michael Giacchino</li>
+				<li><b>Cinematography</b>: Matthew J. Lloyd</li>
+				<li><b>Runtime</b>: 129 minutes/136 minutes (Extended Cut)</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 45 minutes/Approximately 48 minutes (Extended Cut))</li>
+				<li><b>Budget</b>: $160,000,000</li>
+				<li><b>Studio</b>: Columbia Pictures, Marvel Studios</li>
+				<li><b>MPAA</b>: PG-13 - Sci-fi action violence, some language and brief suggestive comments</li>
+			</div>
+			<div class = "information" id = "TheLionKing">
+				<h3>The Lion King</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/vXvtBVidecc"></iframe>
+				<li><b>Director</b>: Jon Favreau</li>
+				<li><b>Voice</b>: Donald Glover, JD McCrary, Beyoncé Knowles-Carter, Shahadi Wright Joseph, Chiwetel Ejiofor, Billy Eichner, Seth Rogen, John Oliver, 
+				Alfre Woodard, John Kani, James Earl Jones, Florence Kasumba, Keegan-Michael Key, Eric Andre, Penny Johnson Jerald</li>
+				<li><b>Music</b>: Hans Zimmer</li>
+				<li><b>Cinematography</b>: Caleb Deschanel</li>
+				<li><b>Runtime</b>: 118 minutes</li>
+				<li><b>Film negative formats</b>: Digital (3D)</li>
+				<li><b>Aspect ratio</b>: 1.78:1/1.43:1 (Approximately 23 minutes)</li>
+				<li><b>Budget</b>:$260,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures</li>
+				<li><b>MPAA</b>: PG - Sequences of violence and peril, and some thematic elements</li>
+			</div>
+			<div class = "information" id = "MaleficentMistressOfEvil">
+				<h3>Maleficent: Mistress of Evil</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/0nkKzXhodzY"></iframe>
+				<li><b>Director</b>: Joachim Rønning</li>
+				<li><b>Cast</b>: Angelina Jolie, Elle Fanning, Michelle Pfeiffer, Chiwetel Ejiofor, Sam Riley, Ed Skrein, Harris Dickinson, Imelda Staunton, 
+				Juno Temple, Lesley Manville, Robert Lindsay, Warwick Davis, Jenn Murray, David Gyasi, Judith Shekoni, Miyavi, Kae Alexander, Emma MacLennon, 
+				John Carew, Freddie Wise</li>
+				<li><b>Music</b>: Geoff Zanelli</li>
+				<li><b>Cinematography</b>: Henry Braham</li>
+				<li><b>Runtime</b>: 119 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $185,000,000</li>
+				<li><b>Studio</b>: Walt Disney Pictures</li>
+				<li><b>MPAA</b>: PG - Intense sequences of fantasy action/violence and brief scary images</li>
+			</div>
+			<div class = "information" id = "TheAeronauts">
+				<h3>The Aeronauts</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/Rm4VnwCtQO8"></iframe>
+				<li><b>Director</b>: Tom Harper</li>
+				<li><b>Cast</b>: Eddie Redmayne, Felicity Jones, Phoebe Fox, Himesh Patel, Rebecca Front, Robert Glenister, Vincent Perez, Anne Reid, Tom Courtenay</li>
+				<li><b>Music</b>: Steven Price</li>
+				<li><b>Cinematography</b>: George Steel</li>
+				<li><b>Runtime</b>: 100 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (Approximately 60 minutes)</li>
+				<li><b>Budget</b>: $40,000,000</li>
+				<li><b>Studio</b>: Amazon Studios</li>
+				<li><b>MPAA</b>: PG-13 - Some peril and thematic elements</li>
+			</div>
+			<div class = "information" id = "1917">
+				<h3>1917</h3>
+				<iframe width = "500" height = "281" src = "https://www.youtube.com/embed/DnDLa9FsPYA"></iframe>
+				<li><b>Director</b>: Sam Mendes</li>
+				<li><b>Cast</b>: George MacKay, Dean-Charles Chapman, Daniel Mays, Colin Firth, Andrew Scott, Mark Strong, Claire Duburcq, Michael Jibson, 
+				Benedict Cumberbatch, Richard Madden</li>
+				<li><b>Music</b>: Thomas Newman</li>
+				<li><b>Cinematography</b>: Roger Deakins</li>
+				<li><b>Runtime</b>: 119 minutes</li>
+				<li><b>Film negative formats</b>: Digital</li>
+				<li><b>Aspect ratio</b>: 2.39:1/1.90:1 (IMAX release)</li>
+				<li><b>Budget</b>: $100,000,000</li>
+				<li><b>Studio</b>: DreamWorks Pictures, Reliance Entertainment, New Republic Pictures</li>
+				<li><b>MPAA</b>: R - Violence, some disturbing images, and language</li>
+			</div>
+			<div class = "disclaimer">
+				<p><b>WARNING</b>: Please note that some of these information may not be accurate.</p>
+			</div>
+		</main>
+	</body>
+</html>
