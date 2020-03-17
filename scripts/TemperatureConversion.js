@@ -4,6 +4,7 @@
  * ConvertCtoF - The function that converts degrees Celsius to degrees Fahrenheit and posts a gif image depending on the temperature
  * @param degreesCelsius the temperature in degrees Celsius that has been entered by a user
  * @return fahrenheit the temperature that has been converted from Celsius to Fahrenheit.
+ * Initial function "ConvertCtoF" provided by ZyBooks with rest of the codes written by Junyeong Yoo
  */
 function ConvertCtoF(degreesCelsius) {
 	var fahrenheit = degreesCelsius * (9 / 5) + 32;
@@ -29,6 +30,7 @@ function ConvertCtoF(degreesCelsius) {
  * ConvertFtoC - The function that converts degrees Fahrenheit to degrees Celsius and posts a gif image depending on the temperature
  * @param degreesFahrenheit the temperature in degrees Fahrenheit that has been entered by a user
  * @return celsius the temperature that has been converted from Fahrenheit to Celsius.
+ * Initial function "ConvertFtoC" provided by ZyBooks with rest of the codes written by Junyeong Yoo
  */
 function ConvertFtoC(degreesFahrenheit) {
 	var celsius = (degreesFahrenheit - 32) * (5 / 9);
@@ -53,6 +55,7 @@ function ConvertFtoC(degreesFahrenheit) {
 /**
  * bodyLoaded - The function that validates the input by checking if the entered input is a number or not.
  * Displays an error message if the input is not a number.
+ * Initial function "bodyLoaded" provided by ZyBooks with rest of the codes written by Junyeong Yoo
  */
 function bodyLoaded() {
 	document.getElementById("ConvertButton").onclick = function() {
